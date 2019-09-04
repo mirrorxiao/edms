@@ -1,0 +1,133 @@
+*{
+    font-family: 'Arial Normal', 'Arial';
+    font-style: normal;
+    font-size: 14px;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?ni3igb');
+    src:  url('fonts/icomoon.eot?ni3igb#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?ni3igb') format('truetype'),
+      url('fonts/icomoon.woff?ni3igb') format('woff'),
+      url('fonts/icomoon.svg?ni3igb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+html, body {
+    height: 100%;
+}
+.ivu-layout {
+    height: 100%;
+    background: #fff;
+}
+.ivu-layout-header{
+    background: #444444;
+}
+.ivu-layout-content{
+    overflow-y: auto;
+    height: 100%;
+}
+.ivu-menu-dark{
+    background: #444444;
+}
+.ivu-menu-item{
+    font-family: 'Arial Normal', 'Arial';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+}
+.ivu-table-wrapper{
+    border:none;
+}
+.ivu-table td, .ivu-table th{
+    border:none;
+}
+.ivu-table:after, .ivu-table:before{
+    background: none;
+}
+.main-content{
+    padding: 20px;
+}
+.info-line{
+    margin-bottom: 20px;
+}
+.info-line dt{
+    float:left;
+    width: 120px;
+}
+.info-line dd{
+    white-space: normal;
+    margin-left: 120px;
+}
+.info-line dt, .info-line dd{
+    display:block;
+    font-size: 14px;
+    color: #333333;
+    line-height: 30px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+    font-kerning: normal;
+    white-space: normal;
+}
+.info-line dt:after{
+    content: '：'
+}
+.search-bar{
+    padding: 10px 20px;
+    background: #eee;
+}
+.search-bar .ivu-form-item{
+    margin: 12px 5px;
+}
+.search-opened .ivu-form-item-label {
+    color: #fff;
+}
+.opr a{
+    margin: 0 20px 0 0;
+}
+/* baidu map begin */ 
+.BMap_cpyCtrl{
+    display: none !important;
+}
+.anchorBL{
+    display: none !important;
+}
+.BMap_noprint{
+    display: none !important;
+}
+/* baidu map end */ 
+.verify-btn {
+    display: none;
+}
+.ivu-modal-content{
+    border-radius: unset;
+}
+.ivu-modal-header{
+    border-bottom: none;
+    padding: 20px 0;
+}
+.ivu-modal-header-inner, .ivu-modal-header p{
+    height: inherit;
+    line-height: 30px;
+    font-size: 20px;
+    border-left: 4px solid rgba(51, 153, 255, 1);
+    padding: 0 20px;
+}
+.ivu-modal-footer{
+    background: rgba(245, 246, 247, 1);
+}
+.ivu-page{
+    margin-top: 20px; 
+}
+.period-radio  .ivu-radio-wrapper-checked{
+    background: #2d8cf0;
+    color: #fff;
+}
+.disabled a{
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+}
